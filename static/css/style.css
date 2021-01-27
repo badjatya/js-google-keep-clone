@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-color: #f4f7f8;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(243, 242, 242);
+}
+
+header {
+  background-color: #ffb400;
+  padding: 1.5%;
+}
+
+.btn-div button {
+  float: right;
+  margin: 1.89%;
+  padding: 1%;
+  border-radius: 50px;
+  background-color: #ffb400;
+  border: 0;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+#noteContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note {
+  background-color: #fff;
+  margin: 30px 20px;
+  margin-bottom: -50px;
+  height: 200px;
+  width: 400px;
+  overflow-y: scroll;
+  margin-top: 7rem;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.note .tools {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.note .tools button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note textarea {
+  outline: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  border: none;
+  height: 300px;
+  width: 100%;
+  padding: 20px;
+}
+
+.fa-edit,
+.fa-trash-alt {
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #2ecc71;
+}
+
+.fa-trash-alt {
+  background-color: #374c3c;
+}
+
+.fa-edit:hover {
+  background-color: white;
+  color: #27ae60;
+  filter: drop-shadow(0px 10px 8px rgb(219, 218, 218));
+}
+
+.fa-trash-alt:hover {
+  background-color: white;
+  color: #e74c3c;
+  filter: drop-shadow(0px 10px 8px rgb(219, 218, 218));
+}
+
+.main {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  border: 0;
+  background: transparent;
+}
+
+.buttonContainer {
+  float: right;
+}
+
+.edit,
+.delete {
+  cursor: pointer;
+}
